@@ -1,0 +1,439 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Blanchard художественная галерея</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style type="text/css">
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+
+		[style*="Arial"] {
+			font-family: "Arial", Verdana, Tahoma, sans-serif !important;
+		}
+
+		img {
+			outline: none;
+			text-decoration: none;
+			border:none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100%!important;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+
+		table td {
+			border-collapse: collapse;
+		}
+
+		table {
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+
+		.table-main__td-logo-600 {
+			height: 100px;
+		}
+
+		.table-main__td-logo-280,
+		.table-main__td-picture-280 {
+			display: none;
+		}
+
+		.table-impressionism__td-one h2 {
+			margin-top: 37px;
+			margin-bottom: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			font-family: Arial;
+			font-weight: 700;
+			font-size: 20px;
+			color: #515151;
+		}
+
+		.table-impressionism__td-one p,
+		.table-impressionism__td-two p {
+			padding-top: 0;
+			padding-bottom: 0;
+			font-family: Arial;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 24px;
+			color: #515151;
+		}
+
+		.table-impressionism__td-one p {
+			margin-top: 16px;
+			margin-bottom: 0;
+		}
+
+		.table-impressionism__td-two p {
+			margin-top: 11px;
+			margin-bottom: 37px;
+		}
+
+		.table-artists__td-title h3 {
+			margin-top: 24px;
+			margin-bottom: 24px;
+			padding-top: 0;
+			padding-bottom: 0;
+			font-family: Arial;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			color: #FFFFFF;
+		}
+
+		.table-artists__td-artist h4 {
+			margin-top: 26px;
+			margin-bottom: 3px;
+			padding-top: 0;
+			padding-bottom: 0;
+			font-family: Arial;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 12px;
+			color: #FFFFFF;
+		}
+
+		.table-artists__td-artist p {
+			margin-top: 0;
+			margin-bottom: 21px;
+			padding-top: 0;
+			padding-bottom: 0;
+			font-family: Arial;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 18px;
+			color: #FFFFFF;
+		}
+
+		.table-features__td-slogan p {
+			margin-top: 34px;
+			margin-bottom: 14px;
+			padding-top: 0;
+			padding-bottom: 0;
+			font-family: Arial;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			color: #515151;
+		}
+
+		.table-blocks p {
+			margin-top: 11px;
+			margin-bottom: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			font-family: Arial;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 18px;
+			color: #515151;
+		}
+
+		.table-blocks td {
+			padding-right: 35px;
+		}
+
+		.table-features__td-details {
+			padding-top: 32px;
+			padding-bottom: 32px;
+		}
+
+		.footer__td {
+			padding-top: 27px;
+			padding-bottom: 5px;
+		}
+
+		.footer__td-copyright p {
+			margin-top: 6px;
+			margin-bottom: 6px;
+			padding-top: 0;
+			padding-bottom: 0;
+			font-family: Arial;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			color: #757575;
+		}
+
+		.td-unsubscribe p {
+			margin-top: 0;
+			margin-bottom: 0;
+			padding-top: 2px;
+			padding-bottom: 3px;
+			font-family: Arial;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 10px;
+			color: #757575;
+		}
+
+		@media (max-width: 576px) {
+			.table-main {
+				width: 400px !important;
+			}
+
+			.table-main__td-logo-600 {
+				display: none;
+			}
+
+			.table-main__td-logo-280 {
+				display: block !important;
+				height: 60px !important;
+			}
+
+			.table-main__td-logo-280 img {
+				padding-top: 19px !important;
+			}
+
+			.table-impressionism,
+			.table-artists,
+			.table-features,
+			.table-blocks {
+				width: 340px !important;
+			}
+
+			.table-features__td-blocks td {
+				display: block !important;
+				margin-bottom: 20px !important;
+				padding-right: 0 !important;
+				width: 340px !important;
+			}
+		}
+
+		@media (max-width: 320px) {
+			.table-main {
+				width: 280px !important;
+			}
+
+			.table-main__td-picture-600 {
+				display: none;
+			}
+
+			.table-main__td-picture-280 {
+				display: block !important;
+			}
+
+			.table-impressionism,
+			.table-artists,
+			.table-features,
+			.table-blocks {
+				width: 244px !important;
+			}
+
+			.table-features__td-blocks td {
+				width: 244px !important;
+			}
+		}
+
+	</style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+	<div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Blanchard художественная галерея</div>
+	<table cellpadding="0" cellspacing="0" width="100%" bgcolor="#e5e5e5">
+		<tr>
+			<td>
+				<table class="table-main" width="600" cellpadding="0" cellspacing="0" align="center">
+					<tr>
+						<td class="table-main__td-logo-600" bgcolor="#000000" align="center">
+							<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/logo-600.png" alt="Blanchard логотип" />
+						</td>
+					</tr>
+					<tr>
+						<td class="table-main__td-logo-280" bgcolor="#000000" align="center">
+							<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/logo-280.png" alt="Blanchard логотип" />
+						</td>
+					</tr>
+					<tr>
+						<td class="table-main__td-picture-600">
+							<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/picture-600.jpg" alt="Картина" />
+						</td>
+					</tr>
+					<tr>
+						<td class="table-main__td-picture-280">
+							<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/picture-280.jpg" alt="Картина" />
+						</td>
+					</tr>
+					<tr bgcolor="#ffffff">
+						<td align="center">
+							<table class="table-impressionism" width="520" cellpadding="0" cellspacing="0">
+								<tr>
+									<td class="table-impressionism__td-one">
+										<h2>Торжество импрессионизма</h2>
+										<p>
+											Опыт говорит нам, что семантический разбор внешних противодействий требует анализа новых принципов формирования материально-технической и кадровой базы.
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td class="table-impressionism__td-two">
+										<p>
+											Задача организации, в особенности же внедрение современных методик, в своём 
+											классическом представлении, допускает внедрение глубокомысленных рассуждений. Есть 
+											над чем задуматься: элементы политического процесса преданы
+											социально-демократической анафеме! Но интерактивные прототипы заблокированы в 
+											рамках своих собственных рациональных ограничений. Сторонники тоталитаризма в науке 
+											ограничены исключительно образом мышления.
+										</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr bgcolor="#000000">
+						<td align="center">
+							<table class="table-artists" width="520" cellpadding="0" cellspacing="0">
+								<tr>
+									<td class="table-artists__td-title">
+										<h3>Представленные художники</h3>
+									</td>
+								</tr>
+								<tr>
+									<td class="table-artists__td-artist">
+										<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/artist-gogen.jpg" alt="Картина" />
+										<h4>Поль Гоген</h4>
+										<p>
+											Прежде всего, разбавленное изрядной долей эмпатии, рациональное мышление в значительной степени обусловливает важность укрепления моральных ценностей.
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td class="table-artists__td-artist">
+										<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/artist-renuar.jpg" alt="Картина" />
+										<h4>Огюст Ренуар</h4>
+										<p>
+											А также сделанные на базе интернет-аналитики выводы освещают чрезвычайно интересные особенности картины в целом.
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td class="table-artists__td-artist">
+										<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/artist-mone.jpg" alt="Картина" />
+										<h4>Клод Моне</h4>
+										<p>
+											Современная методология разработки однозначно фиксирует необходимость системы массового участия.
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td class="table-artists__td-artist">
+										<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/artist-mane.jpg" alt="Картина" />
+										<h4>Эдуард Мане</h4>
+										<p>
+											Но социально-экономическое развитие является качественно новой ступенью вывода текущих активов.
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td class="table-artists__td-artist">
+										<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/artist-van-gog.jpg" alt="Картина" />
+										<h4>Винсент Ван Гог</h4>
+										<p>
+											Повседневная практика показывает, что разбавленное изрядной долей эмпатии, рациональное мышление требует анализа поставленных обществом задач.
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td height="5"></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr bgcolor="#ffffff">
+						<td align="center">
+							<table class="table-features" width="520" cellpadding="0" cellspacing="0">
+								<tr>
+									<td class="table-features__td-slogan">
+										<p>И это ещё не всё!</p>
+									</td>
+								</tr>
+								<tr>
+									<td class="table-features__td-blocks" align="center">
+										<table class="table-blocks" width="520" cellpadding="0" cellspacing="0">
+											<tr>
+												<td valign="top" width="165">
+													<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/features-check.png" alt="иконка" />
+													<p>Уникальные подборки работ с авторскими рецензиями</p>
+												</td>
+												<td valign="top" width="175">
+													<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/features-calendar.png" alt="иконка" />
+													<p>Возможность настроить нашу рассылку под свой личный вкус</p>
+												</td>
+												<td valign="top" width="165">
+													<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/features-circle.png" alt="иконка" />
+													<p>У вас есть пожелания и предложения?<br />
+														Напишите нам в ответ на это письмо!</p>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="table-features__td-details" align="center">
+										<a href="https://www.google.ru">
+											<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/details.png" alt="Узнать все подробности" />
+										</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="footer__td" bgcolor="#000000" align="center">
+							<table>
+								<tr>
+									<td>
+										<table class="table-social" cellpadding="0" cellspacing="0" width="143" align="center">
+											<tr>
+												<td align="left">
+													<a href="https://vk.com/">
+														<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/social-vk.png" alt="Вконтакте" />
+													</a>
+												</td>
+												<td align="center">
+													<a href="https://www.instagram.com/?hl=ru">
+														<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/social-instagram.png" alt="Инстаграм" />
+													</a>
+												</td>
+												<td align="right">
+													<a href="https://www.facebook.com">
+														<img src="https://raw.githubusercontent.com/dmitry-shishkov/dmitry-shishkov.github.io/weblayout_coursework/img/1email/social-fb.png" alt="Фейсбук" />
+													</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="footer__td-copyright" align="center">
+										<p>Blanchard © 2020 / Все права защищены</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr bgcolor="#ebebeb">
+						<td class="td-unsubscribe" align="center" valign="middle">
+							<p>Вы можете так же <a href="https://www.google.ru">отписаться от рассылки</a></p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
